@@ -58,15 +58,15 @@ const Watch = () => {
   const handleClearLaps = () => {
     localStorage.clear();
     setLap([]);
-    alert("CLEAR!");
+    
   };
 
   const parseTime = (time) => {
     var centiSec_num = parseInt(time, 10); // don't forget the second param
     var hours = Math.floor(centiSec_num / 360000);
     var minutes = Math.floor((centiSec_num - hours * 360000) / 6000);
-    var seconds = Math.floor((centiSec_num - minutes * 6000) / 100);
-    var centiseconds = centiSec_num - seconds * 100;
+    var seconds = Math.floor((centiSec_num - ((minutes * 6000) + (hours * 360000))) / 100);
+    var centiseconds = centiSec_num - ((minutes * 6000) + (hours * 360000) + (seconds * 100));
 
     if (hours < 10) {
       hours = "0" + hours;
@@ -81,9 +81,7 @@ const Watch = () => {
     if (centiseconds < 10) {
       centiseconds = "0" + centiseconds;
     }
-    if (centiseconds < 100) {
-      centiseconds = "0" + centiseconds;
-    }
+
     return hours + ":" + minutes + ":" + seconds + ":" + centiseconds;
   };
 
