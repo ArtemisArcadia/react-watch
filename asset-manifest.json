@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-watch/static/css/main.34042064.chunk.css",
+    "main.js": "/react-watch/static/js/main.03ae2c77.chunk.js",
+    "main.js.map": "/react-watch/static/js/main.03ae2c77.chunk.js.map",
+    "runtime-main.js": "/react-watch/static/js/runtime-main.66770479.js",
+    "runtime-main.js.map": "/react-watch/static/js/runtime-main.66770479.js.map",
+    "static/js/2.8e6b0c31.chunk.js": "/react-watch/static/js/2.8e6b0c31.chunk.js",
+    "static/js/2.8e6b0c31.chunk.js.map": "/react-watch/static/js/2.8e6b0c31.chunk.js.map",
+    "static/js/3.85152aac.chunk.js": "/react-watch/static/js/3.85152aac.chunk.js",
+    "static/js/3.85152aac.chunk.js.map": "/react-watch/static/js/3.85152aac.chunk.js.map",
+    "index.html": "/react-watch/index.html",
+    "static/css/main.34042064.chunk.css.map": "/react-watch/static/css/main.34042064.chunk.css.map",
+    "static/js/2.8e6b0c31.chunk.js.LICENSE.txt": "/react-watch/static/js/2.8e6b0c31.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.66770479.js",
+    "static/js/2.8e6b0c31.chunk.js",
+    "static/css/main.34042064.chunk.css",
+    "static/js/main.03ae2c77.chunk.js"
+  ]
+}
